@@ -356,7 +356,7 @@ coolstep_threshold: 100
 [tmc2209 stepper_z]
 uart_pin: PD0
 diag_pin: PC6
-run_current: 1.05
+run_current: 0.800
 interpolate: True
 stealthchop_threshold: 999999
 #coolstep_threshold: 20
@@ -365,7 +365,7 @@ stealthchop_threshold: 999999
 [tmc2209 stepper_z1]
 uart_pin: PB5
 diag_pin: PC6
-run_current: 1.05
+run_current: 0.800
 interpolate: True
 stealthchop_threshold: 999999
 #coolstep_threshold: 20
